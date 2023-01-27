@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Inter } from "@next/font/google";
 import styles from "@/styles/Test.module.css";
 import styles2 from "@/styles/404.module.css";
+import Test from "@/components/test";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,6 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
+        <Test></Test>
         <div className={styles.description}>
           <p>
             Get started by editing&nbsp;
